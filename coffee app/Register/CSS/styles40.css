@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box}
+
+body {
+  padding: 20px;
+  background-color:#FFFFFF;
+}
+
+.picture {
+  text-align: center;
+  margin: 0px 0 24px 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #D3D3D3;
+  font-family: lato;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #000000;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: #000000;
+  font-family: "Roboto Medium"; 
+}
+
+a:hover {
+  color: #4D667E;
+}
+
+p {
+  color: #000000;
+  font-family: lato; 
+}
+
+.terms {
+  font-size: 8pt;
+}
+
+.signin {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+::placeholder {
+  color: #848484;
+  font-family: lato;
+}
+
+
+/* Set a style for all buttons */
+button {
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto Medium;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+ background-color: #4D667E;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #000000;
+  margin-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
